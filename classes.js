@@ -9,6 +9,7 @@ function start () {
   
   // Your turn! Create a new function called `two`, then call it from here.
   two()
+  three()
 }
 function one () {
   // First, we have to find the element:
@@ -23,5 +24,8 @@ function two () {
 }
 
 // CREATE FUNCTION three HERE
-
+function three () {
+  var three = document.getElementById('three')
+  three.classList.add('pink')
+}
 // CREATE FUNCTION makeVisible HERE
